@@ -1,0 +1,13 @@
+﻿<Window x:Class="UgoiraPlay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UgoiraPlay"
+        mc:Ignorable="d"
+        Title="UgoiraPlay WPF" Height="200" Width="300" MinWidth="300" MinHeight="200">
+    <Grid>
+        <Label x:Name="render_label" AllowDrop="True" Drop="FileDrop" Content="Drag And Drop Ugoira!" Margin="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="22" FontWeight="Bold" Background="Transparent" Foreground="#FF00DCFF"/>
+        <Image x:Name="render_zone" AllowDrop="True" Drop="FileDrop" Margin="0"/>
+    </Grid>
+</Window>
